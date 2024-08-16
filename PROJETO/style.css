@@ -1,0 +1,30 @@
+header{
+    font-size: 32px;
+    color: red;
+    background-color: black;
+    border-bottom: solid 3px white;
+    padding: 20px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+section{
+    color:yellow
+}
+.seletor{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+
+}
+img{
+    height: 200px;
+}
+.seletor img{
+    opacity: 0.5;
+}
+.seletor img:hover{
+    opacity: 1.0;
+}
